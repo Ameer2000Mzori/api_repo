@@ -1,9 +1,7 @@
 import React from "react";
 import  ReactDOM  from "react-dom/client";
 import App from "./App";
-import lookimages from "./components/api";
 
-lookimages();
 
 const le = document.getElementById('root');
 const root = ReactDOM.createRoot(le);
